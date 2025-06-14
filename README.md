@@ -327,26 +327,3 @@ Header: عنوان و دکمه‌های Import/Export
 Sidebar: ابزارهای رسم
 Main Content: کانواس و نوار وضعیت
 Drag Preview: نمایش موقت هنگام کشیدن
-
-
-
-
-🧠 نکات کلیدی معماری:
-1. State Management Pattern:
-استفاده از useState برای state های محلی
-Immutable updates با spread operator
-State lifting برای اشتراک داده
-2. Event Handling Strategy:
-Separation of concerns برای رویدادهای مختلف
-Event delegation برای بهینه‌سازی
-Global event handling برای drag & drop
-3. Performance Optimizations:
-useCallback برای پیشگیری از re-render
-Conditional rendering برای UI
-Efficient array operations
-4. Code Organization:
-Functional components با hooks
-Custom event handlers
-Reusable style objects
-Modular function design
-
