@@ -183,6 +183,7 @@ const handleMouseMove = useCallback((e) => {
 حین حرکت: محاسبه موقعیت جدید با در نظر گیری offset
 Boundary Check: محدود کردن حرکت در مرزهای کانواس
 Update Shape: به‌روزرسانی موقعیت شکل مورد نظر
+
 🌐 بخش 9: مدیریت رویدادهای Global
 ```
 const handleGlobalMouseMove = useCallback((e) => {
@@ -244,6 +245,7 @@ JSON Stringify: تبدیل shapes به رشته JSON
 Blob Creation: ایجاد فایل در مرورگر
 Download Trigger: شبیه‌سازی کلیک برای دانلود
 Memory Cleanup: آزادسازی URL object
+
 فرآیند Import:
 File Reading: خواندن فایل انتخاب شده
 JSON Parse: تبدیل رشته به object
