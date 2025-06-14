@@ -134,6 +134,7 @@ const handleCanvasDrop = useCallback((e) => {
 Boundary Check: محدود کردن شکل در مرزهای کانواس
 Math.max/min: اطمینان از عدم خروج از محدوده
 State Cleanup: پاکسازی تمام state های مربوط به drag
+
 🗑️ بخش 7: حذف شکل
 ```
 const deleteShape = useCallback((shapeId, e) => {
