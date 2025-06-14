@@ -147,6 +147,7 @@ const deleteShape = useCallback((shapeId, e) => {
 Event Prevention: جلوگیری از propagation و default behavior
 Filter: حذف شکل با شناسه مشخص از آرایه
 Immutable Update: به‌روزرسانی غیرمخرب state
+
 🔄 بخش 8: جابجایی اشکال
 ```
 const handleShapeMouseDown = useCallback((e, shape) => {
